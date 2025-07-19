@@ -46,8 +46,8 @@ TRAINING_ITERATION = 10 # Current training iteration #标识做了第几次的�
 NN_FN = 'data/model/Checkers_Model9_11-Feb-2021(00:07:22).h5'
 # NEW_NN_FN required if TRAINING = FALSE and EVALUATION = TRUE
 NEW_NN_FN = 'data/model/Checkers_Model10_12-Feb-2021(14:50:36).h5'
-SELFPLAY = False           # If True self-play phase will be executed
-TRAINING = True            # If True training phase will be executed
+SELFPLAY = True           # If True self-play phase will be executed
+TRAINING = False            # If True training phase will be executed
 EVALUATION = False          # If True evaluation phase will be executed
 
 # Final evaluation of models after running several training iterations 

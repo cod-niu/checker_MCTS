@@ -7,12 +7,14 @@ tensorflow=2.2
 
 install
 ```
-conda create -n checker python=3
+conda create -n checker python=3.7
 pip install tensorflow==2.2.0
 mamba install cudatoolkit=10.1 cudnn=7.6
 pip install -r requirements.txt
 Install the package that is commented out in requirements.txt with conda
 ```
+
+First, set `SELFPLAY=True`, then set `TRAINING=True`
 
 # Training a Neural Network to play Checkers with Monte Carlo Tree Search
 
